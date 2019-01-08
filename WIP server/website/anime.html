@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+<title>weaboo archive</title>
+</head><br>
+<!-- crappy script that adds anime to weaboo archive, and compresses image, dude
+#usr/bin/bash
+
+echo -n "anime title: "; read anime_title
+echo -n "MyAnimeList page: "; read mal_url
+echo -n "cover image.jpg: "; read cover
+echo -n "file location: "; read file_location
+
+printf "
+<li> <a href='../shell/%s'>
+    <img src='img/%s'/></a><br>
+    <a href='%s' class='button'>%s</a>
+</li>
+" "$file_location" "$cover" "$mal_url" "$anime_title" >> index.html
+mogrify -quality 80 img/$cover
+-->
+<center>
+    <ul>
+    <div id="div1" class="small-block-grid-8">
+        <li> <a href="../shell/[BMT] Toradora! 1-26 %2B Specials %2B Textless OP%26ED [BD-720p Hi10] [Dual Audio]/">
+            <img src="img/test.jpg"/></a><br>
+            <a class="button" href="http://myanimelist.net/anime/4224/Toradora!">Toradora!</a>
+        </li>

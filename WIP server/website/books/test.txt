@@ -1,0 +1,275 @@
+﻿README
+
+STAR TREK: ARMADA III - THE FINAL FRONTIER v1.0
+	A MOD FOR SINS OF A SOLAR EMPIRE: REBELLION
+		BY STELLAR PARALLAX 
+
+----------------------------------------------------------
+INSTALL INSTRUCTIONS
+----------------------------------------------------------
+
+1. Unzip the contents of the STA3_Final_Frontier directly into "C:\Users\%USERNAME%\Documents\My Games\Ironclad Games\Sins of a Solar Empire Rebellion\Mods-Rebellion v1.85
+
+
+
++++++++||	NOTE: STEPS 2, 3, 4, and 15 may no longer be necessary in Sins of a Solar Empire: Rebellion v1.87. Please check the release notes of this upcoming patch before continuing. ||++++++++
+
+
+2. Navigate back to your unzipped Star Trek: Armada III download folder. Inside you will find a small application called LAA (Large Address Aware). Run this program by double clicking the icon or right-clicking "Run".
+
+3. Click the ellipses (...) and navigate to your Steam Folder where Sins of a Solar Empire: Rebellion is installed, this is usually found at: C:\Program Files (x86)\Steam\steamapps\common\Sins of a Solar Empire Rebellion.
+
+4. Click on the Sins of a Solar Empire Rebellion.exe to select this executable. 
+
+5. Tick the small box in the LAA application that allows for more than 2GB of memory to be used by Sins of a Solar Empire: Rebellion. Click the Apply button.
+
+
+
+
+6. Run the Sins of a Solar Empire executable you applied Large Address Aware to. If you have installed the mod correctly, a Star Trek-themed loading screen reading "Standing By" will appear. 
+
+7. If all of these steps are completed without incident, enjoy the mod!
+
+
+----------------------------------------------------------
+GALAXY FORGE 
+----------------------------------------------------------
+
+Star Trek: Armada III - The Final Frontier has been delivered to you with a new version of the Galaxy Forge, allowing you to build your own maps with ease.
+
+To use the Galaxy Forge, simply open the Galaxy Forge folder included in your download, and run the GalaxyForge application. 
+
+In the future, updates may be made to the Armada III GalaxyScenarioDef (Galaxy Scenario Definitions) file which will require you to update your Galaxy Forge. You will be able to download an updated Galaxy Forge from the Armada III webpage.
+
+----------------------------------------------------------
+FURTHER INFORMATION
+----------------------------------------------------------
+
+For news, comments, reviews, bug reporting, and other information related to Star Trek: Armada III, please visit us at : http://www.moddb.com/mods/star-trek-armada-3
+
+----------------------------------------------------------
+ACKNOWLEDGEMENTS & CREDITS
+----------------------------------------------------------
+
+We would like to dedicate Star Trek: Armada III - The Final Frontier to our friend and colleage Chris Knight, Amargosa. You will be missed.
+
+We would also like to extend our gratitude to the enormous number of friends, colleagues, and fans who have been with us at various points along the journey. Without you, this project could never have been a reality.
+
++ CODING AND GAME DESIGN +
+------------------------------
+AceXmachine
+Admiral Q
+Amargosa
+Ambarenya
+Bane
+Caelian556
+Draconis
+El-Vi-Riachi
+Goafan77
+GSR69
+GulDukat
+Kophjeager
+Lavo
+Maxloef
+Mindwipe
+OrionSlaver
+Outerexodus
+Phoenix
+Rick Adbur
+Skyline5GTR
+WileyCoyote
+Zurme
+
++ MODELLING AND ART +
+------------------------------
+Aad Moerman & Aerilon
+Atrahasis
+Bethesda Softworks
+Chiletrek
+Cleeve
+Cryptic Studio (for designs)
+Fleet Ops Team for the Romulan station meshes
+Goafan77 with E4X
+King Hippo
+LC Amaral
+MadDoc Studios
+Modelsplease
+Nekronus
+Tyrel Lohr
+WrathofAchilles
+
++ VOICE CAST +
+------------------------------
+Alice Krige
+Avery Brooks
+Dan Gavin
+Denise Crosby
+J.G. Hertzler
+Jeffrey Combs
+Jeri Ryan
+Kate Mulgrew
+Marc Alaimo
+Patrick Stewart
+Robert O'Reilly
+Salome Jens
+Tony Todd
+
++ ADDITIONAL VOICES +
+------------------------------
+Baron Dixon
+Barry Dennen
+Brian Mysliwy
+Cam Clarkem
+Chad Farris
+Charles Bartlett
+Charles Rahi Chun
+Chris Menheneott
+Christian J. Iamartino
+Conner Bentley
+Dan Gilvezan
+David Randolph
+Denice Kumagai
+Earl Boen
+Gabriel Wolf
+Gary Schwartz
+Greg Eagles
+IamSancho
+Iris Bahr
+Jennifer Larsen
+Jim Hudson
+Jim Jansen
+Jim Ward
+Joan Parker
+Joel Sweeton
+Joel Swetow
+John Cragen
+John Horan
+Jonathan David Cook
+Jonathan Del Arco
+Judi M. Durand
+Kayla
+Kevin Michael Richardson
+Kristian Thomas
+Lex Lang
+Lisa LoCicero
+Martha Hackett
+Max Grodénchik
+Michael Bell
+Michael Reisz
+Neil Ross
+Nicholas Guest
+Noreen Reardon
+Patti Yasutake
+Paul Eckstein
+Paul Eiding
+Peter Renaday
+Phillip Morris
+Richard Penn
+Robert Shackleton
+Sherman Howard
+Terrence Beasor 
+Tim Harrison
+Tony Pasqualini
+Tyler Moore
+Vaughn Armstrong
+
++ BETA TESTERS +
+------------------------------
+23Down
+anthonya85
+armonix
+armyofone7300
+Aszanthi
+Bob Miller
+burt74657
+caesars_legion
+corey
+CorvusCorax
+duffy0091
+ensign sweet
+generalsanis
+Harper
+heroicxhunter
+Imperial Core
+ironrock
+jameswgm87
+Jonsin
+jreecey9711
+kidcanis
+kowism
+kurgan2
+kyrook
+lpslucasps
+M468
+Matt Ross Campbell
+mazorax
+Napalm Knight
+Oddworlder
+Phobos
+phycogold
+raylan
+Ricardus
+rikerson
+Rovert
+Seraphim
+SFC3
+spardason21
+SteelFaith
+Steffan
+symandria
+Tom Todd
+totaldbag
+trickydickie
+zackshea
+
++ SPECIAL ACKNOWLEDGEMENTS +
+------------------------------
+Activision
+Alec Peters
+Bernd Schneider
+Bethesda Softworks
+Danny Pelfrey
+Doug Drexler
+Gizmo Games
+Inon Zur
+Ironclad Games
+Jason Graves
+Jenny DeSalle
+John Eaves
+MadDoc Software
+ModDb
+Nerd3
+PCGamer Magazine
+Perfect World Entertainment
+Rod Abernethy
+Ron Jones
+Simon & Schuster
+SOTP Dev Team
+Stardock Entertainment
+Steven von Kampen
+TGN
+The XpGamers
+Tobias Richter
+Total Buiscuit
+
+
+THANK YOU!!
+
+- ☧
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
