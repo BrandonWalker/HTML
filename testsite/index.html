@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CodeLife</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet" />
+        <script src="js/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+        <script src="js/creator.js"></script>
+        <script src='js/jquery.min.js'></script>
+        <script src='js/jquery.zoom.js'></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+			<link rel="stylesheet" href="css/noscript.css" />
+		</noscript>
+        <style type="text/css">a {text-decoration:bold}</style>
+	    <link href="video-js.css" rel="stylesheet" type="text/css">
+        <script src="video.js"></script>
+
+  
+  <script>
+    videojs.options.flash.swf = "video-js.swf";
+  </script>
+	</head>
+	<body class="homepage">
+	
+	<h1><center>CodeLife Productions</center></h1>
+
+<center>
+		<!-- Wrapper-->
+			<div id="container">
+				
+				<!-- Nav -->
+                <br><br> 
+					<nav id="nav">
+						<a href="#Home">Home</a> <!-- #Home links the button to the home page -->
+						<a href="#past">Projects</a> <!-- "class="fa fa-chevron-down""> is the icon, line 417 in css/style.css has all the variants -->
+						<a href="#apps">Apps</span></a>
+                        <a href="#web">Design</span></a>
+                        <a href="mailto:walkerlance65@gmail.com" class="fa fa-envelope"><span>Contact</span></a>
+					</nav>
+
+				<!-- Main -->
+				    <div id="main">
+						<!-- Home -->
+							<article id="Home" class="panel"> 
+								<header>
+									<span class="byline"></span> 
+								</header>
+								<body>
+						<script></script>
+							<p style="margin-left:30px;color:black;font-size:40px;"> </p>
+								<br><br>
+								<p></p>
+								</body>
+							</article>
+
+						<!-- past --> 
+							<article id="past" class="panel"  style="text-align:left">
+								<header>
+								
+                                </header>
+                                <body>
+				
+                                </body>
+							</article>
+
+						<!-- apps --> 
+							<article id="apps" class="panel" style="text-align:left">
+								<header>
+					
+								</header>
+                                <body>
+								 <video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
+                                 poster="http://video-js.zencoder.com/oceans-clip.png"
+								data-setup="{}">
+								<source src="videos\Progressive House - Vicetone - What Ive Waited For feat D Brown Monstercat Release.mp4" type='video/mp4' />
+								<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+								<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+								<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								<track kind="subtitles" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+								<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+									</video>
+								
+                                </body> 
+							</article>
+							<article id="web" class="panel" style="text-align:left"> 
+								<header>
+									<span class="byline"></span> 
+								</header>
+								<body>
+						<script></script>
+								</body>
+							</article>
+                        
+
+
+
+				<!-- Footer -->
+					<div id="footer">
+						<ul class="links">
+							<li>Brandon</li>
+							<li>Design : <a href="http://html5up.net/">HTML5 UP</a></li>
+						</ul>
+					</div>
+			</div>
+<br>
+<img border="10" style="position:absolute; left:-525px; border:5px solid #1A1A17;"   src="css/images/cll.png" alt="logo" width="304" height="228";>
+</center>
+<SCRIPT LANGUAGE="JavaScript">
+document.getElementById("timedate").innerHTML = message;                    // id="timedate"
+
+
+function updateClock()                                                      // onload="updateClock()"
+{
+    Date.getMinutesTwoDigits = function()
+    {
+        var retval = now.getMinutes();
+        if (retval < 10) return ("0" + retval.toString());
+        else return retval.toString();
+    }
+    Date.getHoursModTwelve = function()
+    {
+        var retval = now.getHours();
+        retval = retval%24;
+        if (retval == 0) retval = 00;
+        return retval;
+    }
+    var now = new Date(),                                                   // id="time"
+        time = Date.getHoursModTwelve() + ':' + Date.getMinutesTwoDigits();
+    document.getElementById('time').innerHTML = ["", time].join('');
+    setTimeout(updateClock, 100);
+	
+}
+</SCRIPT>
+
+<!-- <button onclick="oniichan()" type="button" class="topright">test</button> -->
+<body onload="updateClock()">
+
+<center><br>
+    <font size="30"<div id="time"></div></font>
+    <span id="wxTemp"></span>
+</center>
+<div id="timedate" class="center"></div><br>
+<div id="fancytemp" class="center"></div>
+<style type="txt/css">
+ hours{color:red;}
+ clock{color:red;}
+ hours {color:red;}
+</html>
