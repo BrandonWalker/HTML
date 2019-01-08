@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Red</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="js/jquery.min.js"></script>
+</head>
+<body onload="updateClock()">
+<center><br>
+    <font size="30"<div id="time"></div></font>
+    <span id="wxTemp"></span>
+</center>
+<div id="timedate" class="center"></div><br>
+<div id="fancytemp" class="center"></div>
+
+<center>
+    <div id="menu">
+        <div id="grip"></div>
+        <ul id="mnu">
+            <li><label>Technology</label><ul>
+                <a href="https://github.com/">GitHub</a>
+                <a href="http://192.168.1.1/Main_Login.asp">Router settings</a>
+                <a href="http://www.rain.org/~mkummel/unix.html">Unix Cheat Sheet</a>
+                <a href="https://wiki.installgentoo.com/">/g/ Wiki</a>
+                <a href="http://pastebin.com/">Pastebin</a>
+                <a href="https://imgur.com/">Imgur</a>
+                <a href="http://www.fprintf.net/vimCheatSheet.html">Vim Cheat Sheet</a>
+                <a href="https://mixtape.moe/">Kawaii File Hosting</a></li>
+                <a href="https://stackexchange.com/">Stack Exchange</a>
+            </ul></li>
+			
+            <li><label>chan</label><ul>
+                <a href="http://boards.4chan.org/g/catalog">Technology</a>
+                <a href="https://boards.4chan.org/a/catalog">Anime & Manga</a>
+                <a href="https://boards.4chan.org/f/">Flash</a>
+                <a href="https://boards.4chan.org/c/catalog">Anime/Cute</a>
+                <a href="http://boards.4chan.org/wsg/catalog">Worksafe Gif</a>
+                <a href="https://boards.4chan.org/wg/catalog">Wallpaper General</a>
+                <a href="https://boards.4chan.org/w/catalog">Anime/Wallpapers</a>
+                <a href="https://lainchan.org/%CE%BB/index.html">Programming</a>
+                <a href="https://lainchan.org/diy/index.html">DIY & Electronics</a>
+                <a href="http://boards.4chan.org/b/catalog">Random</a>
+                <a href="http://boards.4chan.org/pol/catalog">Politically Incorrect</a>
+            </ul></li>
+            <li><label>Other</label><ul>
+            </ul></li>
+			
+            <li><label>Entertainment</label><ul>
+                <a href="https://rutracker.net/forum/index.php">RuTracker</a>
+                <a href="http://192.168.1.232/toast">/toast/</a>
+                <a href="https://www4.gogoanime.in/">Stream Anime</a>
+                <a href="http://myanimelist.net/">MyAnimeList</a>
+                <a href="http://store.steampowered.com/">Steam</a>
+                <a href="http://www.twitch.tv/directory/following/live">Twitch</a>
+				<a onclick="toggleYoutube()" onclick="go_get(); return false;">Youtube</a>
+                <!--<a href="https://www.youtube.com/feed/subscriptions">YouTube</a> -->
+                <a href="http://www.netflix.com/WiHome">Netflix</a>
+				<a href="http://abbaudiobook.com/">Audiobooks</a>
+				<a href="http://gen.lib.rus.ec/">Books</a>
+            </ul></li>
+			
+            <li><label>Education</label><ul>
+                <a href="http://newsmap.jp/#/b,m,n,t,w/us/view/">Newsmap</a>
+                <a href="http://www.codecademy.com/">Codecademy</a>
+                <a href="https://www.duolingo.com/">Duolingo</a>
+                <a href="https://www.coursera.org/">Coursera</a>
+                <a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>
+                <a href="https://en.wiktionary.org/wiki/Wiktionary:Main_Page">Wiktionary</a>
+                <a href="http://itpro.tv/library/">ITpro</a>
+                <a href="http://login-learn.k12.com/accessui/login.do?__actionName=view">K12</a>
+                <a href="http://tldp.org/HOWTO/HOWTO-INDEX/categories.html">Howto's</a>
+                <a href="https://www.edx.org/">edX</a>
+            </ul></li>
+        </ul>
+</div>
+</center>
+<!-- youtubeplaylist search function-->
+<div id="youtube">
+<form onsubmit="go_get(); return false;" >
+ <input type="text"  id="yourtextfield"/>
+ <input type="submit" value="Search Playlists" />
+</form>
+<iframe width="265" height="170" id="youriframe" frameborder="0" allow=" autoplay;" allowfullscreen></iframe>
+</div>
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
